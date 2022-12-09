@@ -1,0 +1,23 @@
+body {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, #25211f, #4b5357);
+}
+.image__box{
+    width: 400px;
+    height: 375px;
+    background-image: url(red.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    margin: 25px
+}
+.text__box{
+    width: 60%;
+    text-align: center;
+    font-family: 'Martian Mono', monospace;
+    color: #f3d9d9;
+}
